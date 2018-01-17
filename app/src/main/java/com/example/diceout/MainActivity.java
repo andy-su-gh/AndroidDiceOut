@@ -27,9 +27,7 @@ public class MainActivity extends AppCompatActivity {
     int score;
 
 
-    int die1;
-    int die2;
-    int die3;
+
 
     ArrayList<Integer> dice;
 
@@ -77,6 +75,9 @@ public class MainActivity extends AppCompatActivity {
         //int num = rand.nextInt(6)+1;
         //String randomValue = "Number generated: " + num;
         //Toast.makeText(getApplicationContext(), randomValue, Toast.LENGTH_SHORT).show();
+        int die1;
+        int die2;
+        int die3;
 
         die1 = rand.nextInt(6)+1;
         die2 = rand.nextInt(6)+1;
